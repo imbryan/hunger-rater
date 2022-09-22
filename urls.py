@@ -1,8 +1,8 @@
 from . import views
 from django.urls import path
 
-app_name = 'hungerrater'
+app_name = 'hunger-rater'
 
 urlpatterns = [
-    path('', views.hungerrater, name='hungerrater')
+    path('', views.hungerrater, name='hunger-rater')
 ]
